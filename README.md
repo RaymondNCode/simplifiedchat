@@ -1,4 +1,4 @@
-# ChatApp
+# simplified chat
 
 A real-time chat application built using Firebase Authentication and Firestore.
 
