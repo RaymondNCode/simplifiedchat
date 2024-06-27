@@ -1,3 +1,4 @@
+![alt text](simplified-chat-logo-nobg.png)
 # simplified chat
 
 A real-time chat application built using Firebase Authentication and Firestore.
