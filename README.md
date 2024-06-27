@@ -35,3 +35,32 @@ Simplified chat is a real-time chat application that leverages Firebase Authenti
 3. Install Firebase:
    ```sh
    npm install firebase
+
+## Configuration
+Firebase Setup
+1. Create a Firebase Project:
+- Go to the Firebase Console.
+- Click on "Add Project" and follow the instructions to create a new Firebase project.
+
+2. Enable Firebase Authentication:
+- In the Firebase Console, select your project.
+- Navigate to the "Authentication" section.
+- Click on the "Sign-in method" tab.
+- Enable the "Google" sign-in provider and configure it with the required information.
+  
+3. Set Up Firestore:
+- In the Firebase Console, select your project.
+- Navigate to the "Firestore Database" section.
+- Click on "Create database" and follow the instructions to set up Firestore in production mode   or test mode.
+
+4. Add Firebase Configuration to Your Project:
+- Add a web app to your Firebase project to get your Firebase configuration details.
+- replace all the below information with in 'firebaseConfig.js' with your own Firebase    
+  configuration.
+```sh
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
