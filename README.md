@@ -1,9 +1,3 @@
-# simplifiedchat
-
-![image](https://drive.google.com/uc?export=view&id=1DiLt_s2jIuiXFBKAE-Jtes6ZHw_qVf4j)
-A basic chat app that powered by Firebase Authentication and Firestore
-![this is a file for test](simplified-chat-logo-nobg.png)
-
 # ChatApp
 
 A real-time chat application built using Firebase Authentication and Firestore.
@@ -15,3 +9,21 @@ A real-time chat application built using Firebase Authentication and Firestore.
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+
+## Introduction
+
+ChatApp is a real-time chat application that leverages Firebase Authentication for user management and Firebase Firestore for data storage. Users can sign up, log in, and exchange messages in real-time.
+
+## Features
+
+- User Authentication (direct sign in with google)
+- Real-time messaging
+- User presence status
+- Responsive UI
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/chatapp.git
+   cd chatapp
