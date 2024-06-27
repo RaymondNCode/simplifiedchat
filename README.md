@@ -31,3 +31,7 @@ Simplified chat is a real-time chat application that leverages Firebase Authenti
 2. Install dependencies:
    ```sh
    npm install
+
+3. Install Firebase:
+   ```sh
+   npm install firebase
